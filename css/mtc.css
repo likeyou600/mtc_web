@@ -1,0 +1,32 @@
+body {
+    /* overflow-x: hidden; */
+    /* transform: translateZ(0); */
+    /* -webkit-overflow-scrolling: touch; */
+}
+
+img {
+    pointer-events: none;
+}
+
+h1 {
+    size: 55px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+h1 {
+    size: 45px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+p {
+    size: 16px;
+    opasity: 0.7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rectangle {
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    height: 3820px;
+    width: 100%;
+}

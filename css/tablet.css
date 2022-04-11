@@ -1,0 +1,1033 @@
+@media (min-width: 768px) and (max-width: 1279px) {
+    .gotop {
+        position: absolute;
+        width: 60px;
+        height: 78px;
+        right: 5%;
+        bottom: 135px;
+        background: url('../resourse/others/goup1.webp')no-repeat;
+    }
+    .gotop_hover {
+        background: url('../resourse/others/goup2.webp')no-repeat;
+    }
+    .cursor {
+        display: none;
+    }
+    /* body {
+        background-color: black !important;
+    } */
+    .mtccontainer {
+        position: relative;
+        height: 6000px;
+        overflow: hidden;
+    }
+    .linebox {
+        position: absolute;
+        width: 568px;
+        height: 411px;
+        top: 1287px;
+        left: 100px;
+        right: 100px;
+        margin: auto;
+        display: inline-flex;
+    }
+    .line1 {
+        position: absolute;
+        width: 3px;
+        height: 338px;
+        left: 0;
+        top: 0px;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-name: line1;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes line1 {
+        from {
+            top: 0px;
+        }
+        to {
+            top: 3820px;
+        }
+    }
+    .line2 {
+        position: absolute;
+        width: 3px;
+        height: 338px;
+        left: 141px;
+        top: 300px;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-name: line2;
+        animation-iteration-count: infinite;
+    }
+    @keyframes line2 {
+        0% {
+            top: 300px;
+        }
+        40% {
+            top: 3820px;
+        }
+        90% {
+            top: 0px;
+        }
+        100% {
+            top: 300px;
+        }
+    }
+    .line3 {
+        position: absolute;
+        width: 3px;
+        height: 338px;
+        left: 283px;
+        top: 600px;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-name: line3;
+        animation-iteration-count: infinite;
+    }
+    @keyframes line3 {
+        0% {
+            top: 600px;
+        }
+        40% {
+            top: 3820px;
+        }
+        90% {
+            top: 0px;
+        }
+        100% {
+            top: 300px;
+        }
+    }
+    .line4 {
+        position: absolute;
+        width: 3px;
+        height: 338px;
+        right: 141px;
+        top: 300px;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-name: line4;
+        animation-iteration-count: infinite;
+    }
+    @keyframes line4 {
+        0% {
+            top: 300px;
+        }
+        40% {
+            top: 3820px;
+        }
+        90% {
+            top: 0px;
+        }
+        100% {
+            top: 300px;
+        }
+    }
+    .line5 {
+        position: absolute;
+        width: 3px;
+        height: 338px;
+        right: 0;
+        top: 0px;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-name: line5;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes line5 {
+        from {
+            top: 0px;
+        }
+        to {
+            top: 3820px;
+        }
+    }
+    .mtcnavbar {
+        position: fixed;
+        width: 668px;
+        height: 80px;
+        right: 0;
+        background: rgba(7, 7, 28, 0.3);
+        /* backdrop-filter: blur(300px); */
+        border-radius: 0px 0px 0px 40px;
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+        z-index: 99;
+        background-repeat: no-repeat;
+    }
+    .group {
+        position: absolute;
+        left: 50px;
+        top: 25.75px;
+    }
+    .barbuttongroup {
+        display: none;
+    }
+    .barbutton {
+        display: flex;
+        background-color: transparent;
+        border: 0;
+        width: 80%;
+        margin: auto;
+        height: 116px;
+        font-family: Syncopate;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #ffffff;
+        align-items: center;
+        opacity: 0.3;
+        margin: auto;
+    }
+    #bar1,
+    #bar5 {
+        opacity: 1;
+    }
+    .language {
+        position: absolute;
+        width: 109px;
+        height: 80px;
+        right: 0;
+        top: 0px;
+        background: rgba(7, 7, 28, 0.2);
+        border-radius: 0px 0px 0px 40px;
+    }
+    .languagebuttongroup {
+        display: none;
+    }
+    .languagetext {
+        background-color: transparent;
+        border: 0;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.3;
+    }
+    .menu {
+        position: absolute;
+        right: 25px;
+        top: 10px;
+    }
+    .navbar_mindevice_content {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        border-bottom: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+        background: rgba(7, 7, 28, 0.3);
+        border-radius: 0px;
+        z-index: 98;
+    }
+    .mindevice_barbuttongroup {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 233px;
+    }
+    .mindevice_languagebuttongroup {
+        position: absolute;
+        width: 414px;
+        height: 104px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background: rgba(7, 7, 28, 0.1);
+        /* backdrop-filter: blur(300px); */
+        border-radius: 40px 40px 0px 0px;
+        border-top: 2px solid;
+        border-left: 2px solid;
+        border-right: 2px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    #English,
+    #English1 {
+        position: absolute;
+        top: 36px;
+        left: 118px;
+    }
+    #Chinese,
+    #Chinese1 {
+        position: absolute;
+        top: 36px;
+        right: 105px;
+    }
+    .backimg {
+        background: url('../resourse/backgrounds/tablet_back.webp') no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        z-index: -3;
+    }
+    .mainimg {
+        background: url('../resourse/backgrounds/MTC_Coin_V1_0000 assemble (0-00-02-12).webp') no-repeat;
+        background-size: 1205.66px 678px;
+        position: absolute;
+        width: 1205.66px;
+        height: 678px;
+        right: -100px;
+        top: 0;
+        z-index: -2;
+    }
+    .coinbox {
+        position: relative;
+        height: 13000px;
+        overflow: hidden;
+        filter: blur(10px);
+    }
+    .coinimg {
+        background: url(../resourse/backgrounds/coin.webp);
+        background-repeat: repeat;
+        background-size: 125% auto;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -3;
+        bottom: 700px;
+    }
+    .mask {
+        background: url('../resourse/backgrounds/tablet_mask.webp') no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        z-index: -1;
+    }
+    /* ----------------------------------------first------------------------------------------- */
+    .firstbox {
+        position: absolute;
+        width: 580px;
+        height: 415px;
+        left: 100px;
+        right: 100px;
+        margin: auto;
+        top: 600px;
+    }
+    .title1-1 {
+        /* MetaCasino (MTC) */
+        width: 168px;
+        height: 20px;
+        left: 230px;
+        top: 340px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+        text-transform: uppercase;
+        text-shadow: 0px 0px 50px #f27374;
+        background: linear-gradient(100.31deg, #ef677a 34.76%, #f38568 57.7%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .title1-2 {
+        /* What is MetaCasino? */
+        margin-top: 15px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 50px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .title1-3 {
+        /* Group 2 */
+        position: relative;
+        margin-top: 20px;
+        width: 215px;
+        height: 60px;
+        background: url("../resourse/others/read.webp") no-repeat center center;
+    }
+    .title1-3_hover {
+        position: relative;
+        margin-top: 20px;
+        width: 215px;
+        height: 60px;
+        background: url("../resourse/others/read.webp") no-repeat center center;
+        box-shadow: 0px 4px 100px #f27374;
+        border-radius: 20px;
+    }
+    .title1-3text {
+        position: absolute;
+        width: 115px;
+        height: 15px;
+        left: 25px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .plus {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 178px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .close {
+        position: absolute;
+        transform: rotate(-90deg);
+        width: 2.73px;
+        height: 15px;
+        left: 184px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .title1-4 {
+        position: relative;
+        margin-top: 20px;
+        width: 580px;
+        height: 180px;
+        background: rgba(7, 7, 28, 0.2);
+        /* backdrop-filter: blur(15px); */
+        border-radius: 40px;
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .title1-4text {
+        top: 30px;
+        right: 39px;
+        left: 39px;
+        bottom: 30px;
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ffffff;
+        opacity: 0.7;
+    }
+    /* ----------------------------------------second------------------------------------------- */
+    .secondbox {
+        position: absolute;
+        width: 568px;
+        height: 711px;
+        left: 100px;
+        right: 100px;
+        margin: auto;
+        top: 1075px;
+        background: rgba(7, 7, 28, 0.2);
+        /* backdrop-filter: blur(200px); */
+        border-radius: 40px;
+        background-image: url("../resourse/others/why2.webp");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .title2-1 {
+        /* MetaCasino (MTC) */
+        top: 84px;
+        right: 350px;
+        left: 50px;
+        bottom: 307px;
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+        text-transform: uppercase;
+        text-shadow: 0px 0px 50px #f27374;
+        background: linear-gradient(100.31deg, #ef677a 34.76%, #f38568 57.7%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .title2-2 {
+        /* Why
+MetaCasino? */
+        width: 430px;
+        height: 94px;
+        top: 119px;
+        right: 600px;
+        left: 50px;
+        bottom: 198px;
+        position: absolute;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 47px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .title2-3 {
+        top: 228px;
+        right: 50px;
+        left: 50px;
+        bottom: 80px;
+        position: absolute;
+        margin-top: 15px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ffffff;
+        opacity: 0.7;
+    }
+    /* ----------------------------------------third------------------------------------------- */
+    .thirdbox {
+        /* Group 13 */
+        position: absolute;
+        width: 574px;
+        height: 1462px;
+        top: 1936px;
+        left: 100px;
+        right: 100px;
+        margin: auto;
+    }
+    .point1 {
+        background: url("../resourse/others/Rectangle 24.webp") no-repeat;
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        left: 0px;
+        top: 73px;
+    }
+    .title3-1 {
+        /* MetaCasino (MTC) */
+        width: 168px;
+        height: 20px;
+        margin-left: 60px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+        text-transform: uppercase;
+        text-shadow: 0px 0px 50px #f27374;
+        background: linear-gradient(100.31deg, #ef677a 34.76%, #f38568 57.7%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .title3-2 {
+        /* 7 highlights of MetaCasino */
+        width: 455px;
+        height: 84px;
+        margin-left: 55px;
+        margin-top: 15px;
+        margin-bottom: 60px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 47px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .highlight {
+        position: relative;
+        width: 270px;
+        height: 300px;
+        background: rgba(7, 7, 28, 0.2);
+        /* backdrop-filter: blur(15px); */
+        border-radius: 40px;
+        margin-bottom: 60px;
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .highlight_pic {
+        position: absolute;
+        width: 220px;
+        height: 200px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 15px;
+    }
+    .highlight_text {
+        position: absolute;
+        width: 237px;
+        height: 57px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 210px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        -webkit-user-select: none
+    }
+    .beforehover {
+        filter: blur(30px);
+    }
+    .afterhover {
+        display: none;
+        position: absolute;
+        width: 270px;
+        height: 300px;
+        border-radius: 40px;
+        background: rgba(7, 7, 28, 0.5);
+        /* backdrop-filter: blur(10px); */
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .hightlightpoint {
+        background: url('../resourse/others/Rectangle 24.webp')no-repeat;
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 113px;
+    }
+    .hover_highlight_title {
+        position: absolute;
+        width: 237px;
+        height: 57px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 149px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        -webkit-user-select: none;
+    }
+    .hover_highlight_content {
+        position: absolute;
+        width: 237px;
+        height: 57px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 181px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        -webkit-user-select: none;
+        opacity: 0.8;
+    }
+    /* ----------------------------------------fourth------------------------------------------- */
+    .fourthbox {
+        /* Group 14 */
+        position: absolute;
+        width: 574px;
+        height: 1230px;
+        top: 3548px;
+        left: 100px;
+        right: 100px;
+        margin: auto;
+    }
+    .point2 {
+        background: url("../resourse/others/Rectangle 24.webp") no-repeat;
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        left: 0px;
+        top: 50px;
+    }
+    .title4-1 {
+        /* MetaCasino (MTC) */
+        margin-left: 60px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+        text-transform: uppercase;
+        text-shadow: 0px 0px 50px #f27374;
+        background: linear-gradient(100.31deg, #ef677a 34.76%, #f38568 57.7%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .title4-2 {
+        /* Tailor-made service */
+        width: 384px;
+        height: 84px;
+        margin-top: 15px;
+        margin-left: 55px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 47px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .servicelist {
+        position: relative;
+        margin-top: 53px;
+    }
+    .service1 {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        background: linear-gradient( 180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 0, 0, 0.05) 100%);
+        /* backdrop-filter: blur(15px); */
+        border-radius: 400px;
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .service2 {
+        position: relative;
+        margin: -50px 0px -50px 130px;
+        width: 400px;
+        height: 400px;
+        background: linear-gradient( 180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 0, 0, 0.05) 100%);
+        /* backdrop-filter: blur(15px); */
+        border-radius: 400px;
+        z-index: 3;
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .service3 {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        background: linear-gradient( 180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 0, 0, 0.05) 100%);
+        /* backdrop-filter: blur(15px); */
+        border-radius: 400px;
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .service_pic {
+        position: absolute;
+        width: 230px;
+        height: 240px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 25px;
+    }
+    .service_text {
+        margin: 235px 91px 31px 79px;
+        width: 249px;
+        height: 38px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        -webkit-user-select: none;
+    }
+    .service3-1_text {
+        margin: 235px 91px 31px 79px;
+        width: 249px;
+        height: 38px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        -webkit-user-select: none;
+    }
+    .service_beforehover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .service_afterhover {
+        display: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 400px;
+        background: rgba(7, 7, 28, 0.5);
+        /* backdrop-filter: blur(10px); */
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .servicepoint {
+        background: url('../resourse/others/Rectangle 24.webp')no-repeat;
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 64px;
+    }
+    .hover_service_title {
+        position: absolute;
+        width: 287px;
+        height: 76px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 92px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        -webkit-user-select: none;
+    }
+    .hover_service_content {
+        position: absolute;
+        width: 287px;
+        height: 153px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 181px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        -webkit-user-select: none;
+        opacity: 0.7;
+    }
+    /* ----------------------------------------fiveth------------------------------------------- */
+    .fivethtitlebox {
+        position: absolute;
+        width: 1086px;
+        height: 125px;
+        top: 4970px;
+        left: 95px;
+        right: 180px;
+        margin: auto;
+    }
+    .fivethbox {
+        position: absolute;
+        width: 100%;
+        height: 437px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 5214px;
+    }
+    .point3 {
+        background: url("../resourse/others/Rectangle 24.webp") no-repeat;
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        left: 0px;
+        top: 71px;
+    }
+    .title5-1 {
+        /* MetaCasino (MTC) */
+        margin-left: 60px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+        text-transform: uppercase;
+        text-shadow: 0px 0px 50px #f27374;
+        background: linear-gradient(100.31deg, #ef677a 34.76%, #f38568 57.7%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .title5-2 {
+        /* Tailor-made service */
+        width: 575px;
+        height: 168px;
+        margin-top: 15px;
+        margin-left: 55px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 47px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .exclusivelist {
+        display: flex;
+        overflow-x: auto;
+        margin-top: 60px;
+        height: 260px;
+        right: 860px;
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .exclusivelist::-webkit-scrollbar {
+        background: rgba(255, 255, 255, 0.1);
+        /* backdrop-filter: blur(15px); */
+        border-radius: 40px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        width: 1079px;
+        height: 10px;
+    }
+    .exclusivelist::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 40px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        width: 156px;
+        height: 10px;
+    }
+    .exclusivelist::-webkit-scrollbar-track-piece:end {
+        margin-right: 50px;
+    }
+    .exclusivelist::-webkit-scrollbar-track-piece:start {
+        margin-left: 50px;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .exclusivelist {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+    .exclusive {
+        margin: 0 25px 0 25px;
+        width: 685px;
+        height: 200px;
+        background: rgba(7, 7, 28, 0.2);
+        /* backdrop-filter: blur(15px); */
+        border-radius: 40px;
+        flex-shrink: 0;
+        position: relative;
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .exclusive_titletext {
+        margin-top: 12px;
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #ffffff;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        -webkit-user-select: none
+    }
+    .exclusivetitle {
+        text-align: center;
+        right: 0;
+        position: absolute;
+        width: 274px;
+        height: 48px;
+        background: rgba(7, 7, 28, 0.2);
+        /* backdrop-filter: blur(15px); */
+        border-radius: 40px 0px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .exclusive_pic {
+        position: absolute;
+        width: 280px;
+        height: 260px;
+        top: -30px;
+        left: -10px;
+    }
+    .exclusive_contenttext {
+        font-family: Syncopate;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #ffffff;
+        -webkit-user-select: none
+    }
+    .exclusivecontent {
+        position: absolute;
+        top: 77px;
+        right: 33px;
+        left: 258px;
+    }
+    .exclusiveslider {
+        position: absolute;
+        bottom: 0px;
+        width: 30% !important;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .footer {
+        /* Rectangle 10 */
+        position: absolute;
+        width: 674px;
+        height: 80px;
+        bottom: 0;
+        /* backdrop-filter: blur(300px); */
+        border-radius: 0px 40px 0px 0px;
+        background: rgba(7, 7, 28, 0.3);
+        background-repeat: no-repeat;
+        border-top: 1px solid;
+        border-right: 1px solid;
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+    .footericon {
+        position: absolute;
+        left: 156px;
+        top: 20px;
+    }
+    .footertext {
+        display: block;
+        position: absolute;
+        width: 46px;
+        height: 17px;
+        left: 576px;
+        top: 29px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+}
